@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini market</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Owl-carousel CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- start #header -->
+        <header id="header">
+            <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+                <p class="font-rale font-size-12 text-black-50 m-0">Muhammad Azhar-2100018225</p>
+                <div class="font-rale font-size-14">
+                    <a href="#" class="px-3 border-right border-left text-dark">Login</a>
+               
+                </div>
+            </div>
+
+            <!-- Primary Navigation -->
+            <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+                <a class="navbar-brand" href="#">Mini Market</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav m-auto font-rubik">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">On Sale</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Products <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Category <i class="fas fa-chevron-down"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Coming Soon</a>
+                      </li>
+                  </ul>
+                  <form action="#" class="font-size-14 font-rale">
+                      <a href="#" class="py-2 rounded-pill color-primary-bg">
+                        <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                      </a>
+                  </form>
+                </div>
+              </nav>
+               <!-- !Primary Navigation -->
+
+        </header>
+    <!-- !start #header -->
+
+    <!-- start #main-site -->
+        <main id="main-site">
+
+        <!--   product  -->
+            <section id="product" class="py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="ultra.png" alt="product" class="img-fluid">
+                            <div class="form-row pt-4 font-size-16 font-baloo">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-danger form-control">Proceed to Buy</button>
+                                </div>
+                                <div class="col">
+                                    <button type="submit" class="btn btn-warning form-control">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 py-5">
+                            <h5 class="font-baloo font-size-20">Ultra jaya ultra milk coklat</h5>
+                            <small>by Ultra Jaya</small>
+                            <div class="d-flex">
+                                <div class="rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                  </div>
+                                  <a href="#" class="px-2 font-rale font-size-14">20,534 ratings | 1000+ answered questions</a>
+                            </div>
+                            <hr class="m-0">
+
+                            <!---    product price       -->
+                                <table class="my-3">
+                                    <tr class="font-rale font-size-14">
+                                        <td>Harga Asli:</td>
+                                        <td><strike>Rp.20.000</strike></td>
+                                    </tr>
+                                    <tr class="font-rale font-size-14">
+                                        <td>Harga:</td>
+                                        <td class="font-size-20 text-danger">Rp.<span>17.000</span><small class="text-dark font-size-12">&nbsp;&nbsp;Inclusive of all taxes</small></td>
+                                    </tr>
+                                   
+                                </table>
+                            <!---    !product price       -->
+
+                           
+                                <hr>
+
+                            <!-- order-details -->
+                                <div id="order-details" class="font-rale d-flex flex-column text-dark">
+                                    <small>Merk:Ultra</small>
+                                    <small>Kategori:  <a href="#">Minuman </a></small>
+                                    <small><i class="fas fa-map-marker-alt color-primary"></i>&nbsp;&nbsp;Deliver to Customer - 424201</small>
+                                </div>
+                             <!-- !order-details -->
+
+                             <div class="row">
+                                 <div class="col-6">
+                                        
+                                 </div>
+                                 <div class="col-6">
+                                   <!-- product qty section -->  
+                                     <div class="qty d-flex">
+                                         <h6 class="font-baloo">Qty</h6>
+                                         <div class="px-4 d-flex font-rale">
+                                             <button class="qty-up border bg-light" data-id="pro1"><i class="fas fa-angle-up"></i></button>
+                                             <input type="text" data-id="pro1" class="qty_input border px-2 w-50 bg-light" disabled value="1" placeholder="1">
+                                             <button data-id="pro1" class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
+                                         </div>
+                                     </div>
+                                    <!-- !product qty section -->  
+                                 </div>
+                             </div>
+
+
+
+                        </div>
+
+                        <div class="col-12">
+                            <h6 class="font-rubik">Product Description</h6>
+                            <hr>
+                            <p class="font-rale font-size-14">Merupakan susu segar alami berkualitas tinggi dengan berbagai kebaikan seluruh kandungan nutrisi didalamnya, dari mulai protein, karbohidrat, vitamin, serta berbagai macam mineral seperti kalsium, magnesium, fosfor. Menjadikan Ultra Milk coklat susu bernutrisi seimbang yang baik diminum sehari-hari bagi seluruh keluarga Indonesia. Selain itu, ini juga mengadung nutrisi yang baik mendukung pertumbuhan anak-anak maupun dewasa. Produk ini memiliki kemasan 1 Pcs yang dapat digunakan untuk keperluan sebagai berikut: Protein, Karbohidrat, Vitamin, Ca, Mg, Phosfor, Nutrisi pertumbuhan anak & dewasa.Mengandung Lemak totat, Lemak jenuh, Kolesterol, Protein, Karbohidrat total, Gula, Natrium, Kalium, Vitamin A, Vitamin, Vitamin D3, Vitamin E, Vitamin K, Vitamin B1, Vitamin B2, Vitamin B3, Vitamin B6, Vitamin B12, Asam Folat, Kalsium, Zat Besi, Iodium, Zink, Magnesium, Fosfor, Selenium Indikasi Membantu memelihara kondisi tubuh karena susu merupakan salah satu sumber protein alami, serta sebagai sumber vitamin alami, antara lain vitamin A, vitamin B1, B2, B3, B5, B6, B12, Vitamin C dan vitamin E. Susu juga merupakan sumber kalsium alami yang mudah diserap tubuh dan penting untuk pembentukan tulang dan gigi.</p>
+                            <p class="font-rale font-size-14">varian:- Coklat (1liter/1000ml)</p>
+                             <p class="font-rale font-size-14">
+                       Expiry: 02/2023Isi: Nett 1 Liter (1000ml).Kondisi: 100% asli, baru & segel dari pabrik.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!--   !product  -->
+
+
+           <!-- Top Sale -->
+          <section id="list">
+            <div class="container py-5">
+              <h4 class="font-rubik font-size-20">TOP SALE</h4>
+              <hr>
+              <!-- owl carousel -->
+                <div class="owl-carousel owl-theme">
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="lasegar.webp" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Lasegar</h6>
+                        <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                        <div class="price py-2">
+                          <span>Rp7.500</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="ultra.png" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Ultra jaya ultra milk coklat</h6>
+                        <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                        <div class="price py-2">
+                          <span>Rp17.000</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="ultraM.webp" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Ultra jaya ultra milk full cream</h6>
+                        <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                        <div class="price py-2">
+                          <span>Rp.17.000</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                   <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="indofood.jpg" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>INDOFOOD Sambal Extra Pedas</h6>
+                        <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                        <div class="price py-2">
+                          <span>Rp13.900</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="bango.webp" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>BANGO Kecap Manis</h6>
+                        <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                        <div class="price py-2">
+                          <span>Rp12.500</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              <!-- !owl carousel -->
+            </div>
+          </section>
+        <!-- !Top Sale -->
+
+        <!-- !Top Sale -->
+
+        </main>
+    <!-- !start #main-site -->
+
+     <!-- start #footer -->
+        <footer id="footer" class="bg-dark text-white py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-12">
+                <h4 class="font-rubik font-size-20">Mini Market Online</h4>
+                <p class="font-size-14 font-rale text-white-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, deserunt.</p>
+              </div>
+            <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Map</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Toko</a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Information</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">About Us</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Delivery Information</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Privacy Policy</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Terms & Conditions</a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Account</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">My Account</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Order History</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Wish List</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Newslatters</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="copyright text-center bg-dark text-white py-2">
+          <p class="font-rale font-size-14">&copy; Muhammad Azhar <a href="#" class="color-second">2100018225</a></p>
+        </div>
+    <!-- !start #footer -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel Js file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+
+    <!--  isotope plugin cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+
+    <!-- Custom Javascript -->
+    <script src="index.js"></script>
+</body>
+</html>
